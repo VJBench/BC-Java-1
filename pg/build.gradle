@@ -10,3 +10,10 @@ cobertura {
        "${rootProject.projectDir}/pg/build/classes/main"
   ] 
 }
+
+test {
+    beforeTest { descriptor ->
+        logger.lifecycle("Running test: ${descriptor}")
+    }
+	ignoreFailures = true
+}

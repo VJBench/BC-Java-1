@@ -11,3 +11,9 @@ cobertura {
   ]
 }
 
+test {
+    beforeTest { descriptor ->
+        logger.lifecycle("Running test: ${descriptor}")
+    }
+	ignoreFailures = true
+}
