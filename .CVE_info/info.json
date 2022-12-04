@@ -1,0 +1,11 @@
+{
+    "buggy_file_path": "prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner.java",
+    "buggy_method":[[177,186]],
+    "buggy_line":[[182]],
+    "bug_type": "insertion",
+    "compile_cmd": "./gradlew build",
+    "test_cmd" : "./gradlew test",
+    "CVE": "CVE-2016-1000338",
+    "skip_compile_cmd": true,
+    "github_url":"https://github.com/WuYff/bc-java-cve/commit/858c8077a0f65116b0d89682e88447757db72428"
+}
