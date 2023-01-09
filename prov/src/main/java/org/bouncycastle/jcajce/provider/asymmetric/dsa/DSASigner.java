@@ -32,7 +32,7 @@ import org.bouncycastle.crypto.digests.SHA3Digest;
 import org.bouncycastle.crypto.digests.SHA512Digest;
 import org.bouncycastle.crypto.params.ParametersWithRandom;
 import org.bouncycastle.crypto.signers.HMacDSAKCalculator;
-
+import org.bouncycastle.asn1.ASN1Encodable;
 public class DSASigner
     extends SignatureSpi
     implements PKCSObjectIdentifiers, X509ObjectIdentifiers
